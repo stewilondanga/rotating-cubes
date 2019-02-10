@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,557 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+ul, li {
+  list-style-type: none;
+  transform-style: preserve-3d;
+}
+
+.side-1 {
+  transform: translate3d(0, 0, 0.5em);
+}
+
+.side-2 {
+  transform: translate3d(-0.5em, 0, 0) rotate3d(0, 1, 0, 90deg);
+}
+
+.side-3 {
+  transform: translate3d(0.5em, 0, 0) rotate3d(0, 1, 0, 90deg);
+}
+
+.side-4 {
+  transform: translate3d(0, 0, -0.5em);
+}
+
+.side-5 {
+  transform: translate3d(0, -0.5em, 0) rotate3d(1, 0, 0, 90deg);
+}
+
+.side-6 {
+  transform: translate3d(0, 0.5em, 0) rotate3d(1, 0, 0, 90deg);
+}
+
+@keyframes move {
+  0% {
+    transform: rotateX(0turn) rotateY(20deg) rotateZ(0deg) translateY(1em);
+  }
+  100% {
+    transform: rotateX(1turn) rotateY(20deg) rotateZ(0deg) translateY(1em);
+  }
+}
+.box-1 {
+  animation: move 2s calc(-200ms*1) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-1 .side-1 {
+  background: #506903;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-1 .side-2 {
+  background: #29ad21;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-1 .side-3 {
+  background: #72dfd9;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-1 .side-4 {
+  background: #6de132;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-1 .side-5 {
+  background: #a299c7;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-1 .side-6 {
+  background: #be46ab;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-2 {
+  animation: move 2s calc(-200ms*2) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-2 .side-1 {
+  background: #0f8a4d;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-2 .side-2 {
+  background: #5880bf;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-2 .side-3 {
+  background: #5bc9fb;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-2 .side-4 {
+  background: #c0a0d9;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-2 .side-5 {
+  background: #fda288;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-2 .side-6 {
+  background: #9c7156;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-3 {
+  animation: move 2s calc(-200ms*3) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-3 .side-1 {
+  background: #cd8587;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-3 .side-2 {
+  background: #9dbd91;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-3 .side-3 {
+  background: #37dfb5;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-3 .side-4 {
+  background: #8b6c8c;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-3 .side-5 {
+  background: #64a155;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-3 .side-6 {
+  background: #a81d78;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-4 {
+  animation: move 2s calc(-200ms*4) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-4 .side-1 {
+  background: #b9026b;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-4 .side-2 {
+  background: #c17525;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-4 .side-3 {
+  background: #931609;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-4 .side-4 {
+  background: #47f5e6;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-4 .side-5 {
+  background: #6c0a62;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-4 .side-6 {
+  background: #7824a8;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-5 {
+  animation: move 2s calc(-200ms*5) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-5 .side-1 {
+  background: #1f9cf3;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-5 .side-2 {
+  background: #17352d;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-5 .side-3 {
+  background: #ee8493;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-5 .side-4 {
+  background: #51adbe;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-5 .side-5 {
+  background: #e9e7f6;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-5 .side-6 {
+  background: #469c61;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-6 {
+  animation: move 2s calc(-200ms*6) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-6 .side-1 {
+  background: #5ab653;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-6 .side-2 {
+  background: #2292b4;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-6 .side-3 {
+  background: #3dc757;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-6 .side-4 {
+  background: #a136f2;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-6 .side-5 {
+  background: #aff3ab;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-6 .side-6 {
+  background: #632b25;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-7 {
+  animation: move 2s calc(-200ms*7) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-7 .side-1 {
+  background: #b7e16d;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-7 .side-2 {
+  background: #9c717e;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-7 .side-3 {
+  background: #f6bcae;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-7 .side-4 {
+  background: #e0dfe6;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-7 .side-5 {
+  background: #05e3eb;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-7 .side-6 {
+  background: #505f58;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-8 {
+  animation: move 2s calc(-200ms*8) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-8 .side-1 {
+  background: #c06cae;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-8 .side-2 {
+  background: #c808ab;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-8 .side-3 {
+  background: #8fa725;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-8 .side-4 {
+  background: #c21567;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-8 .side-5 {
+  background: #96d954;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-8 .side-6 {
+  background: #4a515f;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-9 {
+  animation: move 2s calc(-200ms*9) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-9 .side-1 {
+  background: #74b193;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-9 .side-2 {
+  background: #edaeff;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-9 .side-3 {
+  background: #50d40a;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-9 .side-4 {
+  background: #b0e2fe;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-9 .side-5 {
+  background: #04f2dd;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-9 .side-6 {
+  background: #d1b405;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box-10 {
+  animation: move 2s calc(-200ms*10) linear infinite;
+  height: 1em;
+  width: 1em;
+  margin: 0.5em;
+  position: relative;
+}
+.box-10 .side-1 {
+  background: #89d81f;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-10 .side-2 {
+  background: #32951a;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-10 .side-3 {
+  background: #83fca2;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-10 .side-4 {
+  background: #175212;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-10 .side-5 {
+  background: #5bbab5;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box-10 .side-6 {
+  background: #580a2f;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .containers {
