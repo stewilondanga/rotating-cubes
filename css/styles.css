@@ -490,14 +490,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-8 .side-4 {
+.box-8 .side-4 {
   background: #c21567;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.box-8 .side-5 {
+
+/*.box-8 .side-5 {
   background: #96d954;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
