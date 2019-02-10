@@ -52,11 +52,11 @@ ul, li {
   transform: translate3d(0, -0.5em, 0) rotate3d(1, 0, 0, 90deg);
 }
 
-/*.side-6 {
+.side-6 {
   transform: translate3d(0, 0.5em, 0) rotate3d(1, 0, 0, 90deg);
 }
 
-@keyframes move {
+/*@keyframes move {
   0% {
     transform: rotateX(0turn) rotateY(20deg) rotateZ(0deg) translateY(1em);
   }
