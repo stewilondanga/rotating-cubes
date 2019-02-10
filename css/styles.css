@@ -122,14 +122,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-2 {
+.box-2 {
   animation: move 2s calc(-200ms*2) linear infinite;
   height: 1em;
   width: 1em;
   margin: 0.5em;
   position: relative;
 }
-.box-2 .side-1 {
+
+/*.box-2 .side-1 {
   background: #0f8a4d;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
