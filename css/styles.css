@@ -40,11 +40,11 @@ ul, li {
   transform: translate3d(-0.5em, 0, 0) rotate3d(0, 1, 0, 90deg);
 }
 
-/*.side-3 {
+.side-3 {
   transform: translate3d(0.5em, 0, 0) rotate3d(0, 1, 0, 90deg);
 }
 
-.side-4 {
+/*.side-4 {
   transform: translate3d(0, 0, -0.5em);
 }
 
