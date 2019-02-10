@@ -578,14 +578,15 @@ ul, li {
   position: relative;
 }
 
-/*.box-10 .side-1 {
+.box-10 .side-1 {
   background: #89d81f;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.box-10 .side-2 {
+
+/*.box-10 .side-2 {
   background: #32951a;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
