@@ -56,15 +56,17 @@ ul, li {
   transform: translate3d(0, 0.5em, 0) rotate3d(1, 0, 0, 90deg);
 }
 
-/*@keyframes move {
+@keyframes move {
   0% {
     transform: rotateX(0turn) rotateY(20deg) rotateZ(0deg) translateY(1em);
   }
+
   100% {
     transform: rotateX(1turn) rotateY(20deg) rotateZ(0deg) translateY(1em);
   }
 }
-.box-1 {
+
+/*.box-1 {
   animation: move 2s calc(-200ms*1) linear infinite;
   height: 1em;
   width: 1em;
