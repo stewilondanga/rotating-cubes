@@ -602,14 +602,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-10 .side-4 {
+.box-10 .side-4 {
   background: #175212;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.box-10 .side-5 {
+
+/*.box-10 .side-5 {
   background: #5bbab5;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
