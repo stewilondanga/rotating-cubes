@@ -618,7 +618,7 @@ ul, li {
   height: 100%;
 }
 
-/*.box-10 .side-6 {
+.box-10 .side-6 {
   background: #580a2f;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -626,7 +626,7 @@ ul, li {
   height: 100%;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
