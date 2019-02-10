@@ -570,14 +570,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-10 {
+.box-10 {
   animation: move 2s calc(-200ms*10) linear infinite;
   height: 1em;
   width: 1em;
   margin: 0.5em;
   position: relative;
 }
-.box-10 .side-1 {
+
+/*.box-10 .side-1 {
   background: #89d81f;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
