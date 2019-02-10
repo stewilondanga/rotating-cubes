@@ -66,14 +66,15 @@ ul, li {
   }
 }
 
-/*.box-1 {
+.box-1 {
   animation: move 2s calc(-200ms*1) linear infinite;
   height: 1em;
   width: 1em;
   margin: 0.5em;
   position: relative;
 }
-.box-1 .side-1 {
+
+/*.box-1 .side-1 {
   background: #506903;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
