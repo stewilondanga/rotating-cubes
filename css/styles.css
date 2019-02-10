@@ -27,14 +27,12 @@ body {
   height: 1.5em;
 }
 
-/*
-
 ul, li {
   list-style-type: none;
   transform-style: preserve-3d;
 }
 
-.side-1 {
+/*.side-1 {
   transform: translate3d(0, 0, 0.5em);
 }
 
