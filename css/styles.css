@@ -44,11 +44,11 @@ ul, li {
   transform: translate3d(0.5em, 0, 0) rotate3d(0, 1, 0, 90deg);
 }
 
-/*.side-4 {
+.side-4 {
   transform: translate3d(0, 0, -0.5em);
 }
 
-.side-5 {
+/*.side-5 {
   transform: translate3d(0, -0.5em, 0) rotate3d(1, 0, 0, 90deg);
 }
 
