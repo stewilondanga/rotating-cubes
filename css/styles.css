@@ -506,7 +506,7 @@ ul, li {
   height: 100%;
 }
 
-/*.box-8 .side-6 {
+.box-8 .side-6 {
   background: #4a515f;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -514,7 +514,7 @@ ul, li {
   height: 100%;
 }
 
-.box-9 {
+/*.box-9 {
   animation: move 2s calc(-200ms*9) linear infinite;
   height: 1em;
   width: 1em;
