@@ -290,14 +290,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-5 {
+.box-5 {
   animation: move 2s calc(-200ms*5) linear infinite;
   height: 1em;
   width: 1em;
   margin: 0.5em;
   position: relative;
 }
-.box-5 .side-1 {
+
+/*.box-5 .side-1 {
   background: #1f9cf3;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
