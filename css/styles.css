@@ -346,14 +346,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-6 {
+.box-6 {
   animation: move 2s calc(-200ms*6) linear infinite;
   height: 1em;
   width: 1em;
   margin: 0.5em;
   position: relative;
 }
-.box-6 .side-1 {
+
+/*.box-6 .side-1 {
   background: #5ab653;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
