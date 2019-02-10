@@ -1,3 +1,8 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,10 +26,6 @@
   height: 1.5em;
 }
 
-body, ul, li {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   width: 100%;
