@@ -82,14 +82,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-1 .side-2 {
+.box-1 .side-2 {
   background: #29ad21;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.box-1 .side-3 {
+
+/*.box-1 .side-3 {
   background: #72dfd9;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
