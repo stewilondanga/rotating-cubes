@@ -322,14 +322,15 @@ ul, li {
   height: 100%;
 }
 
-/*.box-5 .side-4 {
+.box-5 .side-4 {
   background: #51adbe;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.box-5 .side-5 {
+
+/*.box-5 .side-5 {
   background: #e9e7f6;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
